@@ -14,11 +14,22 @@ public class ifelsedemo {
 		if(a>b) {
 			System.out.println("a is greater");
 			
+			
 		}
 		else {
 			System.out.println("b is greater");
 		}
-
+		
+		System.out.println("enter your age : ");
+		int age=sc.nextInt();
+		
+		if(age>=18) {
+			System.out.println("you are eligible to vote");
+			
+		}else {
+			System.out.println("you cannot vote");
+		}
 	}
 
 }
+
